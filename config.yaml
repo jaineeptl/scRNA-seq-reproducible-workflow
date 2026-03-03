@@ -1,0 +1,20 @@
+multiome-workflow/
+├─ README.md
+├─ renv.lock
+├─ renv/                     
+├─ config/
+│  └─ config.yaml
+├─ R/
+│  ├─ 00_packages.R
+│  ├─ 01_config.R
+│  ├─ 02_io_load.R
+│  ├─ 03_multiseq_demux.R
+│  ├─ 04_atac_assay.R
+│  ├─ 05_qc.R
+│  ├─ 06_rna_processing.R
+│  ├─ 07_multimodal_wnn.R
+│  ├─ 08_peak_calling.R
+│  └─ 99_utils.R
+├─ scripts/
+│  └─ run_pipeline.R
+└─ .gitignore
